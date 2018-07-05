@@ -1,0 +1,11 @@
+framework module YKBaseFramework {
+  umbrella header "YKBaseFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module YKBaseFramework.Swift {
+    header "YKBaseFramework-Swift.h"
+    requires objc
+}
